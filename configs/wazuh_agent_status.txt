@@ -1,0 +1,23 @@
+● wazuh-agent.service - Wazuh agent
+     Loaded: loaded (/lib/systemd/system/wazuh-agent.service; enabled; vendor preset: enabled)
+     Active: active (running) since Fri 2026-01-02 23:56:41 UTC; 1h 21min ago
+    Process: 17055 ExecStart=/usr/bin/env /var/ossec/bin/wazuh-control start (code=exited, status=0/SUCCESS)
+      Tasks: 31 (limit: 1125)
+     Memory: 32.3M
+        CPU: 47.401s
+     CGroup: /system.slice/wazuh-agent.service
+             ├─17081 /var/ossec/bin/wazuh-execd
+             ├─17091 /var/ossec/bin/wazuh-agentd
+             ├─17105 /var/ossec/bin/wazuh-syscheckd
+             ├─17119 /var/ossec/bin/wazuh-logcollector
+             └─17136 /var/ossec/bin/wazuh-modulesd
+
+Jan 02 23:56:34 ip-172-31-31-129 systemd[1]: Starting Wazuh agent...
+Jan 02 23:56:34 ip-172-31-31-129 env[17055]: Starting Wazuh v4.7.5...
+Jan 02 23:56:35 ip-172-31-31-129 env[17055]: Started wazuh-execd...
+Jan 02 23:56:36 ip-172-31-31-129 env[17055]: Started wazuh-agentd...
+Jan 02 23:56:37 ip-172-31-31-129 env[17055]: Started wazuh-syscheckd...
+Jan 02 23:56:38 ip-172-31-31-129 env[17055]: Started wazuh-logcollector...
+Jan 02 23:56:39 ip-172-31-31-129 env[17055]: Started wazuh-modulesd...
+Jan 02 23:56:41 ip-172-31-31-129 env[17055]: Completed.
+Jan 02 23:56:41 ip-172-31-31-129 systemd[1]: Started Wazuh agent.
