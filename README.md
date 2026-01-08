@@ -3,32 +3,39 @@
 **Étudiante :** Aya OUZARF  
 **Encadrant :** Prof. Azeddine KHIAT  
 **Année :** 2025/2026
+## 📌 Description du projet
+Ce projet présente la mise en place d’une solution de supervision de sécurité
+basée sur Wazuh, combinant les approches SIEM et EDR, dans un environnement
+multi-OS (Linux et Windows), déployé sur AWS Learner Lab.
+
+L’objectif est de superviser des endpoints, détecter des événements de sécurité
+et analyser les alertes via une plateforme centralisée.
 
 ## 🎯 Objectif
 
-Mise en œuvre d'une plateforme SIEM/EDR complète avec Wazuh sur AWS, supervisant des endpoints Linux et Windows.
-
+- Déployer Wazuh All-in-One sur une instance Linux
+- Superviser des systèmes Linux et Windows
+- Détecter des attaques de type bruteforce, élévation de privilèges et
+  modifications de fichiers sensibles
+- Utiliser Sysmon pour renforcer la surveillance EDR sur Windows
+- Centraliser l’analyse des alertes via le dashboard Wazuh
+  
 ## 🏗️ Architecture
 
-- **Wazuh Server** (Ubuntu 22.04) : Manager + Indexer + Dashboard
-- **Linux Client** (Ubuntu 22.04) : Agent Wazuh
-- **Windows Client** (Windows Server 2025) : Agent Wazuh + Sysmon
+- 1 serveur Wazuh (Ubuntu – All-in-One)
+- 1 client Linux (agent Wazuh)
+- 1 client Windows (agent Wazuh + Sysmon)
+- Hébergement sur AWS EC2
 
-## 📁 Structure du projet
-```
-├── configs/               # Fichiers de configuration
-│   ├── ossec_linux.conf
-│   ├── ossec_manager.conf
-│   ├── local_rules.xml
-│   └── sysmonconfig.xml (à ajouter)
-├── screenshots/           # Captures d'écran
-│   ├── architecture/
-│   ├── wazuh_dashboard/
-│   ├── linux_events/
-│   ├── windows_events/
-│   └── sysmon_events/
-└── README.md
-```
+
+## 📂 Contenu du dépôt
+- `configs/` : fichiers de configuration et informations système
+- `installation/` : étapes d’installation du serveur et des agents
+- `deployment/` : configuration AWS et Security Groups
+- `scenarios/` : scénarios de sécurité testés
+- `diagrams/` : architecture du projet
+- `screenshots/` : captures d’écran de la démonstration
+  
 
 ## 🧪 Scénarios testés
 
