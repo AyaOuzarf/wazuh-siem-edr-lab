@@ -1,4 +1,4 @@
-# Atelier Sécurité des Endpoints et Supervision SIEM avec Wazuh
+# Mise en place d’une solution de sécurité des endpoints et de supervision SIEM avec Wazuh dans un environnement AWS
 
 **Étudiante :** Aya OUZARF  
 **Encadrant :** Prof. Azeddine KHIAT  
