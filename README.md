@@ -30,10 +30,7 @@ et analyser les alertes via une plateforme centralisée.
 
 ## 📂 Contenu du dépôt
 - `configs/` : fichiers de configuration et informations système
-- `installation/` : étapes d’installation du serveur et des agents
-- `deployment/` : configuration AWS et Security Groups
-- `scenarios/` : scénarios de sécurité testés
-- `diagrams/` : architecture du projet
+- `Rapport.pdf` : captures d’écran de la démonstration
 - `screenshots/` : captures d’écran de la démonstration
   
 
