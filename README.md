@@ -3,7 +3,6 @@
 **Étudiante :** Aya OUZARF  
 **Encadrant :** Prof. Azeddine KHIAT  
 **Année :** 2025/2026
-**Filière : **Ingénierie Informatique, Cybersécurité et Confiance Numérique
 
 ## 📌 Description du projet
 Ce projet présente la mise en place d’une solution de supervision de sécurité
