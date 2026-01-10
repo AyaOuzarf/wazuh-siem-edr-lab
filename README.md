@@ -3,6 +3,8 @@
 **Étudiante :** Aya OUZARF  
 **Encadrant :** Prof. Azeddine KHIAT  
 **Année :** 2025/2026
+**Filière : **Ingénierie Informatique, Cybersécurité et Confiance Numérique
+
 ## 📌 Description du projet
 Ce projet présente la mise en place d’une solution de supervision de sécurité
 basée sur Wazuh, combinant les approches SIEM et EDR, dans un environnement
@@ -51,9 +53,6 @@ et analyser les alertes via une plateforme centralisée.
 - Sysmon
 - Security Groups AWS
 
-## 📹 Vidéo de démonstration
-
-[Lien vers la vidéo - À ajouter]
 
 ## 📚 Compétences acquises
 
